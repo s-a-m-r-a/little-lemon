@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Little Lemon - A Mediterranean restaurant">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+<header>
+    <img src="img/logo.png" alt="Little Lemon Logo" class="logo">
+
+    <nav>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#features">About</a></li>
+            <li><a href="#specials">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <!-- MAIN -->
+    <main>
+        <section class="hero-banner">
+            <div class="hero-text"><h1>Welcome To Little Lemon!</h1>
+            <a href="#specials" class="cta-btn">View Our Menu</a>
+        </div>
+        <img src="http://www.little-lemon-restaurant.com/static/img/head_chef.jpg" alt="Head Chef">
+        </section>
+        <hr style="height: 3px; background-color: #f8e9a0;">
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <h2>About Us</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <img src="https://fitmealsprep.com/wp-content/uploads/2023/08/Fit-Meals-Prep_Top-Reasons-Why-Using-Fresh-Ingredients-Really-Matters.jpg" alt="Fresh Salad" class="feature-image">
+                    <h3>Fresh Ingredients</h3>
+                    <p>We source locally grown ingredients for the freshest Mediterranean flavors.</p>
+                </article>
+
+        <article class="feature-card">
+            <img src="https://www.littlelemon.ie/wp-content/uploads/IMG_9567-1600x1166.jpg" alt="Traditional Dish" class="feature-image">
+            <h3>Traditional Recipes</h3>
+            <p>Our chefs prepare authentic dishes using time-honored recipes.</p>
+        </article>
+
+        <article class="feature-card">
+            <img src="https://www.littlelemon.ie/wp-content/uploads/IMG_9315-593x800.jpg" alt="Restaurant Interior" class="feature-image">
+            <h3>Cosy Atmosphere</h3>
+            <p>Enjoy your meal in our inviting dining space perfect for any occasion.</p>
+        </article>
+    </div>
+</section>
+<hr style="height: 3px; background-color: #f8e9a0;">
+
+        <!-- Weekly Specials Section -->
+        <section class="specials" id="specials">
+            <h2>This Week's Specials</h2>
+
+            <!-- Special Items Container -->
+            <div class="specials-grid">
+                <!-- Special 1 -->
+                <article class="special-item">
+                    <img src="https://realfood.tesco.com/media/images/1400x919-Grilled-sea-bass-6f6fe350-0a94-4132-94e7-c164df62e20d-0-1400x919.jpg" alt="Grilled Sea Bass" class="special-image">
+                    <h4>Grilled Sea Bass</h4>
+                    <p>Fresh sea bass with lemon butter sauce and seasonal veggies.</p>
+                    <span class="price">$25.99</span>
+                </article>
+
+                <!-- Special 2 -->
+                <article class="special-item">
+                    <img src="https://www.themediterraneandish.com/wp-content/uploads/2021/04/lamb-kabobs-recipe-8.jpg" alt="Lamb Kebab" class="special-image">
+                    <h4>Lamb Kebab Platter</h4>
+                    <p>Tender marinated lamb with rice pilaf and tzatziki sauce.</p>
+                    <span class="price">$30.99</span>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer id="contact">
+        <!-- Left Column: Logo -->
+        <div class="footer-left">
+            <img src="img/logo-small.png" alt="Little Lemon Logo" class="footer-logo">
+        </div>
+
+        <!-- Right Column: Copyright -->
+        <div class="footer-right">
+            <p>&copy; 2024 Little Lemon Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        const burger = document.getElementById("burger");
+        const navMenu = document.querySelector("nav ul");
+        
+        burger.addEventListener("click", () => {
+            burger.classList.toggle("active");
+            navMenu.classList.toggle("open");
+        });
+    </script>
+
+</body>
+</html>
