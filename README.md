@@ -3,21 +3,22 @@
 A clean, modern, and responsive restaurant website built for the Meta Full-Stack Developer Program.
 <hr>
 ⭐ Features <br>
-- Semantic and accessible HTML
-- Responsive CSS (Flexbox, Grid, Media Queries)
-- Hero section + menu highlights
+- Semantic and accessible HTML <br>
+- Responsive CSS (Flexbox, Grid, Media Queries) <br>
+- Hero section + menu highlights <br>
 - Mobile-first layout
 <hr>
 🛠️ Tech Stack <br>
-**HTML5** – structure & semantics
 
-**CSS3** – styling, layout, responsive design
+**HTML5** – structure & semantics;
 
-**Flexbox & Grid**
+**CSS3** – styling;
 
-**@media Queries**
+**Flexbox & Grid** - flexible layout;
 
-**Google Fonts**
+**@media Queries** - responsive design;
+
+**Google Fonts** - fabulous look
 <hr>
 📂 Structure
 
