@@ -4,12 +4,14 @@ A clean, modern, and responsive restaurant website built for the Meta Full-Stack
 <hr>
 ⭐ Features
 
+
 - Semantic and accessible HTML
 - Responsive CSS (Flexbox, Grid, Media Queries)
 - Hero section + menu highlights
 - Mobile-first layout
 <hr>
 🛠️ Tech Stack
+
 
 **HTML5** – structure & semantics
 
@@ -22,6 +24,7 @@ A clean, modern, and responsive restaurant website built for the Meta Full-Stack
 **Google Fonts**
 <hr>
 📂 Structure
+
 
 /images
 index.html
