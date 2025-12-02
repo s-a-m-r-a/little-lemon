@@ -1,6 +1,6 @@
 🍋 Little Lemon Restaurant
 
-A clean, modern, and responsive restaurant website built for the Meta Full-Stack Developer Program.
+A clean, modern, and responsive restaurant website built for the **Meta Full-Stack Developer Program.**
 <hr>
 ⭐ Features <br>
 - Semantic and accessible HTML <br>
