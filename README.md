@@ -12,6 +12,7 @@ A clean, modern, and responsive restaurant website built for the **Meta Full-Sta
 
 **HTML5** – structure & semantics; <br>
 **CSS3** – styling; <br>
+**Inline JavaScript** - button interactivity and navigation; <br>
 **Flexbox & Grid** - flexible layout; <br>
 **@media Queries** - responsive design; <br>
 **Google Fonts** - fabulous look
