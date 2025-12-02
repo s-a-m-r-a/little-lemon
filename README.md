@@ -10,10 +10,10 @@ A clean, modern, and responsive restaurant website built for the Meta Full-Stack
 <hr>
 🛠️ Tech Stack <br>
 
-**HTML5** – structure & semantics;
-**CSS3** – styling;
-**Flexbox & Grid** - flexible layout;
-**@media Queries** - responsive design;
+**HTML5** – structure & semantics; <br>
+**CSS3** – styling; <br>
+**Flexbox & Grid** - flexible layout; <br>
+**@media Queries** - responsive design; <br>
 **Google Fonts** - fabulous look
 <hr>
 📂 Structure <br>
